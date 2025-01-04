@@ -17,6 +17,39 @@
 | 📈 性能优化 | 构建性能持续优化 |
 | 🔄 并行构建 | 多平台并行构建支持 |
 
+## 💻 快速开始
+
+> 📖 查看我们的[快速开始指南](quick_start.md)，5分钟内完成系统配置！
+
+### ⚡️ 三步上手
+
+1️⃣ **添加构建系统**
+```bash
+git submodule add https://github.com/Tianyuyuyuyuyuyu/UnityBuild.git BuildSystem
+```
+
+2️⃣ **配置项目**
+```yaml
+# build-config.yml
+project_name: "YourProject"
+unity_version: "2021.3.1f1"
+build_targets:
+  - Android
+  - iOS
+```
+
+3️⃣ **配置环境变量**
+
+| 变量类型 | 变量名 | 说明 |
+|---------|--------|------|
+| 必需 | `UNITY_LICENSE` | Unity许可证内容 |
+| 必需 | `UNITY_EMAIL` | Unity账号邮箱 |
+| 必需 | `UNITY_PASSWORD` | Unity账号密码 |
+| 可选 | `UNITY_SERIAL` | Unity序列号 |
+| 可选 | `ANDROID_KEYSTORE_BASE64` | Android签名文件 |
+
+> 🎯 更多详细配置和高级用法，请查看[快速开始指南](quick_start.md)！
+
 ## 💻 系统要求
 
 ### 🖥️ 构建服务器要求
