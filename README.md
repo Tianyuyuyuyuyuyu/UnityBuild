@@ -19,7 +19,7 @@
 
 ## 💻 快速开始
 
-> 📖 查看我们的[快速开始指南](quick_start.md)，5分钟内完成系统配置！
+> 📖 查看我们的[快速开始指南](QUICK_START.md)，5分钟内完成系统配置！
 
 ### ⚡️ 三步上手
 
@@ -48,7 +48,7 @@ build_targets:
 | 可选 | `UNITY_SERIAL` | Unity序列号 |
 | 可选 | `ANDROID_KEYSTORE_BASE64` | Android签名文件 |
 
-> 🎯 更多详细配置和高级用法，请查看[快速开始指南](quick_start.md)！
+> 🎯 更多详细配置和高级用法，请查看[快速开始指南](QUICK_START.md)！
 
 ## 💻 系统要求
 
